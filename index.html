@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+       <title>Réservia</title>
+
+   
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css_P2_1.css" />
+
+    
+  </head>
+
+  <body>
+    <header>
+      <!-- Header -->
+
+      <img src="images/Reservia.svg" class="logo" alt="logo de Reservia" />
+      <!-- Navigation Bar  -->
+      <nav>
+        <a href="#Hebergements" class="navCAtegory">Hébergements</a>
+        <a href="#activiteBox" class="navCAtegory">Activités</a>
+      </nav>
+
+      <a href="#" class="navinscrire">S'inscrire</a>
+    </header>
+
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+
+    <p>En plein centre ville ou en pleine nature</p>
+
+    <form name="rechechehotel">
+      <div id="line_search">
+        <i class="fas fa-map-marker-alt"> </i>
+
+        <input
+          type="text"
+          id="lieux"
+          name="lieux"
+          placeholder="Marseille, France"
+        />
+        <label class="bt_search">
+          <input type="submit" id="input_search" value="" /><span></span>
+        </label>
+      </div>
+
+      <br /><!--  en trop! betise les filtres!!!!!!!!!!!!!!!!!!!!!-->
+
+      <div id="liste_filtres">
+          <div class="titre_filtre">Filtres</div>
+        <label class="filtre">
+          <input type="checkbox" name="choix" value="cheap" />
+          <i class="fas fa-money-bill-wave fa-xs icone"></i
+          ><span class="filtre_txt">Economique</span>
+        </label>
+
+        <label class="filtre">
+          <input type="checkbox" name="choix" value="family" />
+          <i class="fas fa-child fa-xs icone"></i
+          ><span class="filtre_txt">Familial</span>
+        </label>
+        <label class="filtre">
+          <input type="checkbox" name="choix" value="love" />
+          <i class="fas fa-heart fa-xs icone"></i
+          ><span class="filtre_txt">Romantique</span>
+        </label>
+        <label class="filtre">
+          <input type="checkbox" name="choix" value="pet" />
+          <i class="fas fa-dog fa-xs icone"></i
+          ><span class="filtre_txt">Animaux autorisés</span>
+        </label>
+      </div>
+      <!-- fin id="liste_filtres" -->
+    </form>
+
+    <div class="info_dispo">
+      <p><i class="fas fa-info"></i></p>
+      <p>Plus de 500 logements sont disponibles !</p>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer>
+      <div class="foot_txt">
+        <h4><a href="divers/index_make.html">A propos</a></h4>
+        <ul>
+          <li>Fonctionnement du site</li>
+          <li>Conditions générales de vente</li>
+          <li>Données et confidentialité</li>
+        </ul>
+      </div>
+
+      <div class="foot_txt">
+        <h4>Nos hébergements</h4>
+        <ul>
+          <li>Charte qualité</li>
+          <li>Soumettre votre hôtel</li>
+        </ul>
+      </div>
+
+      <div class="foot_txt">
+        <h4>Assistance</h4>
+        <ul>
+          <li>Centre d'aide</li>
+          <li>Nous contacter</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!--<script src="divers/P2_js.js"></script> -->
+  </body>
+</html>
